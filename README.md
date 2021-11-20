@@ -1,34 +1,39 @@
 Polytech-Nice Sophia SI3, 
-Projet semestre 5 : Takenoko 
-Groupe GigaBoss : 
+Project semester 5 : Takenoko 
+Group : 
 	Eric Naud, 
 	Loic Madern, 
 	Enzo Manuel, 
 	Antoine Le Calloch
 
-Le programme se lance avec la commande suivante:
+This program can be launched with those tow commands
 mvn clean package
 mvn exec:java 
 
 
-Comportement du programme:
+Program behaviour:
 
-La simulation du jeu se fait par l’instanciation d’un objet Game qui possède une liste de bots en argument. 
-Le nombre de joueurs peut varier de 1 à 4. 
+The game is simulated by instantiating a Game object which has a list of bots as an argument.
+The number of players can vary from 1 to 4.
 
-La sortie standard affiche le pourcentage de victoire, de défaite et d’égalité ainsi que le score moyen pour chaque bot, pour un total de 1000 parties.
-On peut aussi activer l'affichage du detail du jeu à chaque tour.
+The standard output shows the win, lose, and tie percentage as well as the average score for each bot, for a total of 1000 games.
+You can also activate the display of game details on each turn.
+
+Two parts are launched automatically:
+
+The first part is composed of a Parcel Bot, a Panda Bot, an Intelligent Bot and a Random Bot
+The second part consists of two Intelligent Bot
+
+These parts do not display game details.
+
+The tests cover 91% of the lines of code.
 
 
-Deux parties se lancent automatiquement : 
 
-La première partie est composé d'un Parcel Bot, un Panda Bot, d'un Intelligent Bot et d'un Random Bot
-La deuxième partie est composé de deux Intelligent Bot
 
-Ces parties n'affichent pas les détails du jeu.
-
-Les tests couvrent 91% des lignes de code.
-
+![image](https://user-images.githubusercontent.com/46008069/142728568-fa2206c6-d26d-4b17-85ed-56447140841f.png)
+![Uploading image.png…]()
+rules :https://www.matagot.com/docs/Takenoko_rules_EN.pdf
 
 
 
