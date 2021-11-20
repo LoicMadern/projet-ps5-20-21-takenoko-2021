@@ -6,8 +6,8 @@ Group :
 	Enzo Manuel, 
 	Antoine Le Calloch
 
-This program can be launched with those tow commands
-mvn clean package
+This program can be launched with those two commands
+mvn clean package | 
 mvn exec:java 
 
 
