@@ -32,7 +32,6 @@ The tests cover 91% of the lines of code.
 
 
 ![image](https://user-images.githubusercontent.com/46008069/142728568-fa2206c6-d26d-4b17-85ed-56447140841f.png)
-![Uploading image.png…]()
 rules :https://www.matagot.com/docs/Takenoko_rules_EN.pdf
 
 
